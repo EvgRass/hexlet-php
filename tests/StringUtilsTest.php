@@ -1,12 +1,12 @@
 <?php
 
-use Hexlet\Php\StringUtils as SU;
+use function Hexlet\Php\StringUtils\capitalize;
 
-if (SU\capitalize('hello') !== 'Hello') {
+if (capitalize('hello') !== 'Hello') {
 	    throw new \Exception('Функция работает неверно!');
 }
 
-if (SU\capitalize('') !== '') {
+if (capitalize('') !== '') {
 	    throw new \Exception('Функция работает неверно!');
 }
 
