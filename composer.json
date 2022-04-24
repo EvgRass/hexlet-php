@@ -1,5 +1,11 @@
 {
     "name": "evgrass/hexlet-php",
+    "autoload": {
+        "files": [
+		"src/Runner.php",
+		"src/StringUtils.php"
+	]
+    },
     "description": "example package",
     "authors": [
         {
@@ -7,5 +13,10 @@
             "email": "johnrass@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^8.83"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
 }
