@@ -1,6 +1,6 @@
 <?php
 
-use Hexlet\Php\Stringutils as SU;
+use Hexlet\Php\StringUtils as SU;
 
 if (SU\capitalize('hello') !== 'Hello') {
 	    throw new \Exception('Функция работает неверно!');
