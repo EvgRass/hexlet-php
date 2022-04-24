@@ -2,9 +2,9 @@
     "name": "evgrass/hexlet-php",
     "autoload": {
         "files": [
-		"src/Runner.php",
-		"src/StringUtils.php"
-	]
+            "src/Runner.php",
+            "src/StringUtils.php"
+        ]
     },
     "description": "example package",
     "authors": [

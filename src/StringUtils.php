@@ -1,6 +1,6 @@
 <?php
 
-namespace Hexlet\Php\Stringutils;
+namespace Hexlet\Php\StringUtils;
 
 function capitalize($text)
 {
