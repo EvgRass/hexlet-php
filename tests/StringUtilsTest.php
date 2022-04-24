@@ -8,15 +8,10 @@ if (file_exists($autoloadPath1)) {
 } else {
     require_once $autoloadPath2;
 }
-
+use Webmozart\Assert\Assert;
 use function Hexlet\Php\StringUtils\capitalize;
 
-if (capitalize('hello') !== 'Hello') {
-	    throw new \Exception('Функция работает неверно!');
-}
-
-if (capitalize('') !== '') {
-	    throw new \Exception('Функция работает неверно!');
-}
+Assert::eq(capitalize('hello'), 'Hello');
+Assert::eq(capitalize(''), '');
 
 echo 'Все тесты пройдены!';
